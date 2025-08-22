@@ -1,0 +1,5 @@
+add_library(unordered_multimap INTERFACE)
+target_sources(unordered_multimap INTERFACE unordered_multimap.hpp)
+target_include_directories(unordered_multimap INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(unordered_multimap INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/hash_table)
+target_link_libraries(unordered_multimap INTERFACE hash_table)

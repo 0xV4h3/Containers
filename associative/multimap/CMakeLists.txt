@@ -1,0 +1,5 @@
+add_library(multimap INTERFACE)
+target_sources(multimap INTERFACE multimap.hpp)
+target_include_directories(multimap INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(multimap INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/red_black_tree)
+target_link_libraries(multimap INTERFACE red_black_tree)

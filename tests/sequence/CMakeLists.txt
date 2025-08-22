@@ -1,0 +1,5 @@
+add_subdirectory(array)
+add_subdirectory(vector)
+add_subdirectory(deque)
+add_subdirectory(list)
+add_subdirectory(forward_list)

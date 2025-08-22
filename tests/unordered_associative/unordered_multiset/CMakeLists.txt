@@ -1,0 +1,3 @@
+add_executable(test_unordered_multiset test_unordered_multiset.cpp)
+target_link_libraries(test_unordered_multiset PRIVATE unordered_multiset)
+add_test(NAME UnorderedMultisetTest COMMAND test_unordered_multiset)

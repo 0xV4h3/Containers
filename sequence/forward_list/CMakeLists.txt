@@ -1,0 +1,3 @@
+add_library(forward_list INTERFACE)
+target_sources(forward_list INTERFACE forward_list.hpp)
+target_include_directories(forward_list INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

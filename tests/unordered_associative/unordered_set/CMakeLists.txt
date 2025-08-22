@@ -1,0 +1,3 @@
+add_executable(test_unordered_set test_unordered_set.cpp)
+target_link_libraries(test_unordered_set PRIVATE unordered_set)
+add_test(NAME UnorderedSetTest COMMAND test_unordered_set)

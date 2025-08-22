@@ -1,0 +1,3 @@
+add_executable(test_unordered_multimap test_unordered_multimap.cpp)
+target_link_libraries(test_unordered_multimap PRIVATE unordered_multimap)
+add_test(NAME UnorderedMultimapTest COMMAND test_unordered_multimap)

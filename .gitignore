@@ -1,0 +1,48 @@
+# CLion & IntelliJ project files
+.idea/
+*.iml
+
+# Build output
+cmake-build-*/
+build/
+out/
+*.exe
+*.out
+*.obj
+*.o
+*.gch
+*.pch
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.dll
+*.lib
+
+# Other IDEs
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# CMake files
+CMakeFiles/
+CMakeLists.txt.user
+CMakeCache.txt
+*.cmake
+
+# Test coverage, logs, etc.
+*.gcno
+*.gcda
+*.gcov
+*.log
+
+# Backup files
+*~
+*.bak
+
+# Additional user-specific or temporary files
+*.swp
+*.tmp
+*.temp

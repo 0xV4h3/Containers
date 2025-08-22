@@ -1,0 +1,3 @@
+add_executable(test_unordered_map test_unordered_map.cpp)
+target_link_libraries(test_unordered_map PRIVATE unordered_map)
+add_test(NAME UnorderedMapTest COMMAND test_unordered_map)

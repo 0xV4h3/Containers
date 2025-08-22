@@ -1,0 +1,5 @@
+add_subdirectory(sequence)
+add_subdirectory(associative)
+add_subdirectory(unordered_associative)
+add_subdirectory(container_adapters)
+add_subdirectory(data_structures)

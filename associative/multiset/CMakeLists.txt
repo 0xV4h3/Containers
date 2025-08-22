@@ -1,0 +1,5 @@
+add_library(multiset INTERFACE)
+target_sources(multiset INTERFACE multiset.hpp)
+target_include_directories(multiset INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(multiset INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/red_black_tree)
+target_link_libraries(multiset INTERFACE red_black_tree)

@@ -1,0 +1,3 @@
+add_executable(test_forward_list test_forward_list.cpp)
+target_link_libraries(test_forward_list PRIVATE forward_list)
+add_test(NAME ForwardListTest COMMAND test_forward_list)

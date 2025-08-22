@@ -1,0 +1,3 @@
+add_library(red_black_tree INTERFACE)
+target_sources(red_black_tree INTERFACE red_black_tree.hpp)
+target_include_directories(red_black_tree INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

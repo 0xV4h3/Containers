@@ -1,0 +1,3 @@
+add_executable(test_multimap test_multimap.cpp)
+target_link_libraries(test_multimap PRIVATE multimap)
+add_test(NAME MultimapTest COMMAND test_multimap)

@@ -1,0 +1,5 @@
+add_library(map INTERFACE)
+target_sources(map INTERFACE map.hpp)
+target_include_directories(map INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(map INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/red_black_tree)
+target_link_libraries(map INTERFACE red_black_tree)

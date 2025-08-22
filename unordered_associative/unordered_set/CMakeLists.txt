@@ -1,0 +1,5 @@
+add_library(unordered_set INTERFACE)
+target_sources(unordered_set INTERFACE unordered_set.hpp)
+target_include_directories(unordered_set INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(unordered_set INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/hash_table)
+target_link_libraries(unordered_set INTERFACE hash_table)

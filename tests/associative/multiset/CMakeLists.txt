@@ -1,0 +1,3 @@
+add_executable(test_multiset test_multiset.cpp)
+target_link_libraries(test_multiset PRIVATE multiset)
+add_test(NAME MultisetTest COMMAND test_multiset)

@@ -1,0 +1,5 @@
+add_library(set INTERFACE)
+target_sources(set INTERFACE set.hpp)
+target_include_directories(set INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(set INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/red_black_tree)
+target_link_libraries(set INTERFACE red_black_tree)

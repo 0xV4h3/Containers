@@ -1,0 +1,5 @@
+add_library(unordered_multiset INTERFACE)
+target_sources(unordered_multiset INTERFACE unordered_multiset.hpp)
+target_include_directories(unordered_multiset INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(unordered_multiset INTERFACE ${PROJECT_SOURCE_DIR}/data_structures/hash_table)
+target_link_libraries(unordered_multiset INTERFACE hash_table)

@@ -1,0 +1,3 @@
+add_executable(test_priority_queue test_priority_queue.cpp)
+target_link_libraries(test_priority_queue PRIVATE priority_queue)
+add_test(NAME PriorityQueueTest COMMAND test_priority_queue)

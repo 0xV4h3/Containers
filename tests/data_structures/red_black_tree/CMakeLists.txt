@@ -1,0 +1,3 @@
+add_executable(test_red_black_tree test_red_black_tree.cpp)
+target_link_libraries(test_red_black_tree PRIVATE red_black_tree)
+add_test(NAME RedBlackTreeTest COMMAND test_red_black_tree)
